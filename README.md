@@ -42,7 +42,7 @@ Requirements
 * [PlayFramework 2.3.4+](http://www.playframework.com/)
 * [Redis 2.6+](http://redis.io/)
 
-For hardware, an Amazon EC2 small instance should be good to begin.
+For hardware, an Amazon EC2 small instance should be good to begin (Instance from Digital Ocean will also work).
 MailDrop should take 512M of RAM for the SMTP module, 512M of RAM for
 the web module, and 512M of RAM for the Redis datastore. In practice,
 CPU is not an issue; MailDrop spends most of its time waiting on disk
